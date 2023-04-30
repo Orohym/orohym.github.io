@@ -1,0 +1,39 @@
+body {
+    color: #222;
+    background: #fff;
+    font: 100% system-ui;
+}
+
+a {
+    color: #6d6d6d;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* a:hover {
+    text-decoration: underline;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+} */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background: #121212;
+    }
+
+    body .toc-element::after {
+        background-color: #ffffff;
+
+    }
+
+    .menu_inner a::after {
+        background-color: #ffffff;
+    }
+
+    /* body a {
+        color: #809fff;
+    } */
+}

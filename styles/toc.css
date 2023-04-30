@@ -1,0 +1,24 @@
+#toc li {
+    list-style: circle;
+    font: 110% system-ui;
+    text-align: left;
+}
+
+.toc-element::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    opacity: 0.9;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+}
+
+.toc-element:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

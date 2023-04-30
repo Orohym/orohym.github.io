@@ -1,0 +1,53 @@
+.posts {
+	width: 100%;
+	max-width: 800px;
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+	margin: auto auto;
+}
+
+.posts .posts-list {
+	flex-grow: 1;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.posts .post-title {
+	font-size: 1.3rem;
+	margin: 5px 0 5px 0;
+}
+
+.posts .post-year {
+	padding-top: 14px;
+	margin-right: 1.8em;
+	font-size: 1.6em;
+}
+
+.posts .post-item {
+	border-bottom: 1px grey solid;
+}
+
+.posts .post-item a {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	color: inherit;
+	padding: 12px 0;
+	text-decoration: none;
+}
+
+.posts .post-day {
+	font-size: 1rem;
+	flex-shrink: 0;
+	margin-left: 1em;
+	opacity: 0.8;
+}
+
+.posts h1 {
+	font-size: 3rem;
+}
+
+.posts .post-year-and-list {
+	display: flex;
+}
